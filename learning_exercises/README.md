@@ -2,9 +2,11 @@
 
 欢迎来到 bpfilter 的实践练习！这个目录包含了一系列渐进式的练习，帮助你从零开始掌握 bpfilter。
 
-## 📚 练习列表
+## 📚 学习资源
 
-### Exercise 1: 基础规则和匹配器 ⭐
+### 规则练习（Rules Exercises）
+
+#### Exercise 1: 基础规则和匹配器 ⭐
 **文件：** `exercise_01_basic.bf`
 **学习内容：**
 - Chain、Rule、Matcher、Verdict 基本概念
@@ -16,7 +18,7 @@
 
 ---
 
-### Exercise 2: 端口过滤和传输层匹配 ⭐⭐
+#### Exercise 2: 端口过滤和传输层匹配 ⭐⭐
 **文件：** `exercise_02_ports.bf`
 **学习内容：**
 - TCP/UDP 端口匹配（sport、dport）
@@ -28,7 +30,7 @@
 
 ---
 
-### Exercise 3: 使用 Set 进行批量匹配 ⭐⭐⭐
+#### Exercise 3: 使用 Set 进行批量匹配 ⭐⭐⭐
 **文件：** `exercise_03_sets.bf`
 **学习内容：**
 - Set 的定义和使用
@@ -41,7 +43,7 @@
 
 ---
 
-### Exercise 4: 流量统计和监控 ⭐⭐
+#### Exercise 4: 流量统计和监控 ⭐⭐
 **文件：** `exercise_04_counters.bf`
 **学习内容：**
 - Counter 深度使用
@@ -51,6 +53,51 @@
 - 带宽监控技巧
 
 **预计时间：** 2-3 小时
+
+---
+
+### 测试体系文档（Testing Documentation）
+
+#### 📘 [README_testing.md](./README_testing.md) - 测试文档索引
+**适合：** 所有想了解测试的开发者
+**内容：** 测试文档导航、学习路径、快速开始指南
+
+---
+
+#### 📗 [bpfilter_testing_guide.md](./bpfilter_testing_guide.md) - 完整测试指南
+**适合：** 想要深入了解测试体系的开发者
+**内容：**
+- 测试架构详解
+- 单元测试、E2E 测试、CLI 测试
+- Mock 系统使用
+- 测试最佳实践
+- 添加新测试
+
+**预计时间：** 30-45 分钟
+
+---
+
+#### 📙 [testing_quick_reference.md](./testing_quick_reference.md) - 快速参考手册
+**适合：** 需要快速查找命令和示例的开发者
+**内容：**
+- 常用命令速查
+- 测试模板
+- 调试技巧
+- 常见问题解答
+
+**预计时间：** 5-10 分钟
+
+---
+
+#### 📕 [testing_architecture.md](./testing_architecture.md) - 架构图解
+**适合：** 想要理解测试系统设计的开发者
+**内容：**
+- 整体测试架构图
+- 执行流程图
+- Mock 系统原理
+- 测试发现机制
+
+**预计时间：** 15-20 分钟
 
 ---
 
